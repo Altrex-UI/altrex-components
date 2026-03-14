@@ -1,0 +1,50 @@
+{
+  "name": "@altrex-ui/components",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altrex-UI/altrex-components.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Altrex UI",
+    "url": "https://github.com/Altrex-UI"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Altrex-UI/altrex-components/issues"
+  },
+  "homepage": "https://github.com/Altrex-UI/altrex-components#readme",
+  "dependencies": {
+    "@altrex-ui/floating": "^1.0.1",
+    "@altrex-ui/icons": "^1.0.0",
+    "@altrex-ui/styling": "^1.0.3",
+    "iconify": "^1.4.0",
+    "pinia": "^3.0.4",
+    "stylus": "^0.64.0",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "eslint": "^9.39.2",
+    "eslint-plugin-vue": "~10.6.2",
+    "globals": "^17.0.0",
+    "vite": "^7.3.0",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  }
+}
