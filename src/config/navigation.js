@@ -220,6 +220,11 @@ export const navigationConfig = [
         label: 'Calendar',
         to: '/AltrexCalendar',
         description: 'Date picker for scheduling'
+      },
+      {
+        label: 'Icons',
+        to: '/AltrexIcon',
+        description: 'Icon library sink — browse all icons'
       }
     ]
   }

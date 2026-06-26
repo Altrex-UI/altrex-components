@@ -33,6 +33,7 @@ import AltrexTable from '../AltrexTableView.vue'
 import AltrexDatePicker from '../AltrexDatePickerView.vue'
 import AltrexBreadcrumb from '../AltrexBreadcrumbView.vue'
 import AltrexImage from '../AltrexImageView.vue'
+import AltrexIcon from '../AltrexIconView.vue'
 import Homepage from '../Homepage.vue'
 
 const routes = [
@@ -214,6 +215,11 @@ const routes = [
     path: '/AltrexImage',
     name: 'Altrex Image',
     component: AltrexImage
+  },
+  {
+    path: '/AltrexIcon',
+    name: 'Altrex Icon',
+    component: AltrexIcon
   },
 ]
 
